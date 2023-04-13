@@ -105,24 +105,24 @@ class _RandomState extends State<Random> {
                         ),
                       ),
                       /*SizedBox(
-                      height: 10.0,
-                    ),
-                    new MaterialButton(
-                      onPressed: () {
-                        setState(() {
-                          final wordPair = WordPair.random();
-                        });
-                        createAlertDialogue(context);
-                      },
-                      color: Colors.red,
-                      child: Text(
-                        'GENERATE NEW NAME',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 15.0,
-                        ),
+                        height: 10.0,
                       ),
-                    ),*/
+                      new MaterialButton(
+                        onPressed: () {
+                          setState(() {
+                            final wordPair = WordPair.random();
+                          });
+                          createAlertDialogue(context);
+                        },
+                        color: Colors.red,
+                        child: Text(
+                          'GENERATE NEW NAME',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 15.0,
+                          ),
+                        ),
+                      ),*/
                     ],
                   ),
                 ));
